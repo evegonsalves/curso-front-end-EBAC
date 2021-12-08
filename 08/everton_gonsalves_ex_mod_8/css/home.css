@@ -1,0 +1,109 @@
+header {
+    background-color: #0D0D0D;
+    padding: 20px 0;
+}
+.cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.mascara_foto {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.foto {
+    width: 100%;
+    
+}
+h1 a {
+    font-family: 'Righteous', cursive;
+    color: #EAF205;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    margin-left: 15px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+h1 a:hover {
+    color: #D9D9D9;
+}
+.menu {
+    background-color: #F2E205;
+    position: relative;
+    top: 50px;
+    margin: 20px auto;
+    padding: 20px 0 ;
+}
+nav ul {
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin-left: 30px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+nav li a {
+    color: #0D0D0D;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav li a:hover {
+    color: #A69B03;
+    font-size: 1.5rem;
+}
+section {
+    background-color: #D9D9D9;
+    margin: 10px auto;
+    
+}
+.principal {
+    background-color: #d1d1d1;
+	position: relative;
+	width: 940px;
+	margin: 10px auto;
+    margin-bottom: -10px;
+    padding: 20px 0;
+}
+.titulos {
+    font-family: 'Righteous', cursive;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #0D0D0D;
+}
+.escola {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.box {
+    margin: 10px auto;
+}
+.descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+li img {
+    width: 80px;
+    height: 80px;
+}
+.programas li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+footer {
+	background-color: #0D0D0D;
+    color: #EAF205;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Righteous', cursive;
+}

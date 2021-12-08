@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eve_homepage</title>
+        <link rel="stylesheet" type="text/css" href="../everton_gonsalves_ex_mod_8/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../everton_gonsalves_ex_mod_8/css/contato_eve.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho">
+                <div class="mascara_foto">
+                    <img class="foto" src="./imagens/eve.jpg" alt="Everton Gonsalves">
+                </div>
+                <h1><a href="home.html">Everton Gonsalves</a></h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="trabalhos.html">Trabalhos</a></li>
+                    <li><a href="tabela.html">Tabela</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <main class="principal">
+                <div class="box">
+
+                <h3 class="titulos">Entre em contato</h3>
+
+                    <form>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" class="input_padrao" required placeholder="Nome">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="input_padrao" required placeholder="Email">
+
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" class="input_padrao" required placeholder="Telefone">
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea cols="70" rows="10" id="mensagem" class="input_padrao" required placeholder="Sua mensagem"></textarea>
+
+                        <fieldset>
+
+                            <legend>Como prefere o meu contato?</legend>
+                            <label for="radio_email"><input type="radio" name="contato" value="email" id="radio_email"> Email</label>
+                            
+
+                            <label for="radio_telefone"><input type="radio" name="contato" value="telefone" id="radio_telefone"> Telefone</label>
+                            
+
+                            <label for="radio_whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio_whatsapp"> Whatsapp</label>
+                            
+                        </fieldset>
+                        <fieldset>
+
+                            <legend>Qual horario prefere ser atendido?</legend>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+
+                        </fieldset>
+
+                        <label class="checkbox"><input type="checkbox">Gostaria de receber novidades no email?</label>
+
+                        <input type="submit" value="Enviar" class="enviar">
+                    </form>
+                </div>
+            </main>
+        </section>
+        <footer>
+            <p>Desenvolvido por Everton</p>
+        </footer>
+    </body>
+
+</html>
