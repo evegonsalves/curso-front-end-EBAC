@@ -15,7 +15,7 @@ body {
 .container {
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px -20px 20px 20px;
     width: 100%;
     margin: 0 auto;
 }
@@ -35,7 +35,7 @@ header img {
 
 h1 {
     font-size: 2.4rem;
-    color: #003F63;
+    color: #770b0b;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -46,7 +46,7 @@ article img {
 
 h3 {
     font-size: 2rem;
-    color: #145b85;
+    color: #c93131;
     margin-bottom: 5px;
 }
 
@@ -55,24 +55,29 @@ p {
     line-height: 1.4;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 section {
     background-color: #ffffff;
     font-size: 1.5rem; /* equivalente 15px */
     display: block;
     float: left;
-    width: 100%;
+    width: 80%;
     padding: 20px;
 }
 
 section nav {
     display: block;
     float: left;
-    width: 30%;
+    width: 20%;
     
 }
 
 nav li {
-    background-color: #e7e7e7;
+    background-color: #ecde58;
     margin: 1px 20px 1px 0;
     padding: 10px;
 }
@@ -83,11 +88,11 @@ nav li:hover {
 
 nav a {
     text-decoration: none;
-    color: #003F63;
+    color: #000000;
 }
 
 nav a:hover {
-    color: #145b85;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -113,6 +118,7 @@ footer small {
     display: block;
 }
 
-.cog-branding__powered {
-    visibility: hidden !important;
+.cognito {
+    height: 300px !important;
+    overflow: hidden !important;
 }
